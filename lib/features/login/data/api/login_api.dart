@@ -1,13 +1,14 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
+import '../../../../core/constants/constants.dart';
 import '../models/login_request_model.dart';
 import '../models/login_response_model.dart';
 import '../models/stub_user_model.dart';
 
 class LoginApi {
   final Dio _dio = Dio();
-  final String _remoteJsonUrl = 'https://storage.yandexcloud.net/mobile-dev/SmartOrder/jsons/users.json';
+  final String _remoteJsonUrl = '${Constants.apiJsonsUrl}/users.json';
 
   Future<LoginResponseModel> login(LoginRequestModel login) async {
     try {

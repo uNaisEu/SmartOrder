@@ -1,14 +1,15 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
+import '../../../../core/constants/constants.dart';
 import '../models/category_model.dart';
 import '../models/dish_model.dart';
 
 class MenuApi {
   final Dio _dio = Dio();
 
-  final String _categoryUrl = 'https://storage.yandexcloud.net/mobile-dev/SmartOrder/jsons/category.json';
-  final String _dishesUrl = 'https://storage.yandexcloud.net/mobile-dev/SmartOrder/jsons/dishes.json';
+  final String _categoryUrl = '${Constants.apiJsonsUrl}/category.json';
+  final String _dishesUrl = '${Constants.apiJsonsUrl}/dishes.json';
 
   // Загрузка категорий
   Future<List<CategoryModel>> getCategories() async {
