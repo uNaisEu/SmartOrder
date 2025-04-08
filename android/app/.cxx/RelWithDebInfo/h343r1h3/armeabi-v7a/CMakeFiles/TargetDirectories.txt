@@ -1,0 +1,2 @@
+C:/Users/Nikita/Desktop/Flutter Project/Flutter project/Smart_table/android/app/.cxx/RelWithDebInfo/h343r1h3/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Nikita/Desktop/Flutter Project/Flutter project/Smart_table/android/app/.cxx/RelWithDebInfo/h343r1h3/armeabi-v7a/CMakeFiles/rebuild_cache.dir

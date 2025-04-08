@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Nikita\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Nikita\\Desktop\\Flutter Project\\Flutter project\\Smart_table\\android\\app\\.cxx\\RelWithDebInfo\\h343r1h3\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Nikita\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Nikita\\Desktop\\Flutter Project\\Flutter project\\Smart_table\\android\\app\\.cxx\\RelWithDebInfo\\h343r1h3\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
