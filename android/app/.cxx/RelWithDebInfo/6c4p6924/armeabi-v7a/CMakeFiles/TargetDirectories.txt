@@ -1,2 +1,0 @@
-C:/Users/Nikita/Desktop/Flutter Project/Flutter project/SmartOrder/android/app/.cxx/RelWithDebInfo/6c4p6924/armeabi-v7a/CMakeFiles/edit_cache.dir
-C:/Users/Nikita/Desktop/Flutter Project/Flutter project/SmartOrder/android/app/.cxx/RelWithDebInfo/6c4p6924/armeabi-v7a/CMakeFiles/rebuild_cache.dir
