@@ -1,2 +1,0 @@
-C:/Users/Nikita/Desktop/Flutter Project/Flutter project/Smart_table/android/app/.cxx/RelWithDebInfo/6r1t2c4r/x86_64/CMakeFiles/edit_cache.dir
-C:/Users/Nikita/Desktop/Flutter Project/Flutter project/Smart_table/android/app/.cxx/RelWithDebInfo/6r1t2c4r/x86_64/CMakeFiles/rebuild_cache.dir
