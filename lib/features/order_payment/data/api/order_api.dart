@@ -23,7 +23,7 @@ class OrderApi {
         displayOrder: generateDisplayOrder(orderPosition), 
         statusDisplay: "Готовится", 
         createdAt: DateTime.now(), 
-        totalPrice: requestOrder.items.fold(0, (sum, item) => sum + (item.price * item.quantity)),
+        totalPrice: requestOrder.items.fold(0, (sum, item) => sum + (item.price)),
         items: requestOrder.items
       );
 
