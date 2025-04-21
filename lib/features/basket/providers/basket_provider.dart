@@ -21,8 +21,12 @@ class BasketProvider extends ChangeNotifier {
 
   int get itemCount => _basket.length;
 
+  // double get totalPrice =>
+  //     _basket.fold(0, (sum, item) => sum + (item.price * item.quantity));
+
   double get totalPrice =>
-      _basket.fold(0, (sum, item) => sum + (item.price * item.quantity));
+    _basket.fold(0, (sum, item) => sum + item.price);
+
 
   Future<void> _initialize() async {
     final basketList = await _storage.getBasket();

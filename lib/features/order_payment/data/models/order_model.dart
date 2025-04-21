@@ -43,6 +43,7 @@ class OrderModel {
       'total_price': totalPrice,
       'items': items.map((item) => item.toJson()).toList(),
     };
+    
   }
 
   OrderEntity toEntity(UserEntity user) {

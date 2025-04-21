@@ -1,0 +1,2 @@
+C:/Flutter_project/Flutter/SmartOrder/android/app/.cxx/Debug/s5v64833/x86_64/CMakeFiles/edit_cache.dir
+C:/Flutter_project/Flutter/SmartOrder/android/app/.cxx/Debug/s5v64833/x86_64/CMakeFiles/rebuild_cache.dir

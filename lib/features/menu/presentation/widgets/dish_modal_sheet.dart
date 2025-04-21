@@ -111,7 +111,7 @@ class _DishModalSheetState extends State<DishModalSheet> {
             children: [
               Container(
                 height: 48,
-                width: 120,
+                width: 135,
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
                   borderRadius: BorderRadius.circular(10),
@@ -144,13 +144,15 @@ class _DishModalSheetState extends State<DishModalSheet> {
                       padding: const EdgeInsets.symmetric(horizontal: 4),
                       child: IconButton(
                         icon: const Icon(Icons.add),
-                        onPressed: () {
-                          setState(() {
-                            quantity++;
-                          });
-                        },
+                        onPressed: quantity >= 99
+                            ? null
+                            : () {
+                                setState(() {
+                                  quantity++;
+                                });
+                              },
                       ),
-                    ),
+                    )
                   ],
                 ),
               ),

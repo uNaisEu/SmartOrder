@@ -139,7 +139,7 @@ class _BasketState extends State<Basket> {
                                   ),
                                   trailing: Container(
                                     height: 48,
-                                    width: 120,
+                                    width: 135,
                                     decoration: BoxDecoration(
                                       color: Colors.grey[200],
                                       borderRadius: BorderRadius.circular(10),
@@ -171,11 +171,16 @@ class _BasketState extends State<Basket> {
                                           padding: const EdgeInsets.symmetric(horizontal: 4),
                                           child: IconButton(
                                             icon: const Icon(Icons.add),
-                                            onPressed: () {
-                                              basketProvider.addOrSetItem(basket[index].dish!, basket[index].quantity + 1);
-                                            },
+                                            onPressed: basket[index].quantity >= 99
+                                                ? null
+                                                : () {
+                                                    basketProvider.addOrSetItem(
+                                                      basket[index].dish!,
+                                                      basket[index].quantity + 1,
+                                                    );
+                                                  },
                                           ),
-                                        ),
+                                        )
                                       ],
                                     ),
                                   ),
