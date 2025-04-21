@@ -173,7 +173,7 @@ class _DishModalSheetState extends State<DishModalSheet> {
                     padding: const EdgeInsets.symmetric(vertical: 12),
                     child: Center(
                       child: Text(
-                        isInBasket ? "Изменить" : "Добавить в корзину",
+                        isInBasket ? "Изменить" : "В корзину",
                         style: Theme.of(context).textTheme.titleMedium!
                             .copyWith(color: Theme.of(context).colorScheme.onPrimaryContainer),
                       ),
